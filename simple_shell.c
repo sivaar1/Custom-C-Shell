@@ -99,7 +99,7 @@ int checkExit(char* str){
 	while(newStr[0] == ' ')
 		newStr++;
 	if(newStr[0] == '\0')
-		return;
+		return 0;
 
 	int isExit = 0;
 	char *tempStr = strdup(str);
